@@ -1,0 +1,4 @@
+<resources>
+    <string name="search_gif_hint">Search Gifs</string>
+    <string name="no_result">Sorry! No Gifs Found</string>
+</resources>

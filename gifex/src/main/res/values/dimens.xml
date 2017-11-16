@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!--  This view needs to have a min height in order to show the images properly
+    140dp is for list, 4dp - top padding and 4dp - bottom padding -->
+    <dimen name="gallery_view_min_height">148dp</dimen>
+    <dimen name="gallery_view_padding">4dp</dimen>
+    <dimen name="gifs_search_bar_height">40dp</dimen>
+</resources>

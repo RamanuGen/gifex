@@ -1,0 +1,26 @@
+ext {
+
+    androidLibs = [
+            appCompatV7:        "com.android.support:appcompat-v7:${SUPPORT_LIB_VERSION}",
+            recyclerView:       "com.android.support:recyclerview-v7:${SUPPORT_LIB_VERSION}",
+    ]
+
+    playServicesLibs = [
+    ]
+
+    externalLibs = [
+            retrofit:           "com.squareup.retrofit2:retrofit:${RETROFIT2_VERSION}",
+            retrofitGson:       "com.squareup.retrofit2:converter-gson:${RETROFIT2_GSON_CONVERTER_VERSION}",
+            retrofitRxAdapter:  "com.squareup.retrofit2:adapter-rxjava:${RETROFIT2_RXJAVA_ADAPTER_VERSION}",
+            infiniteScroll:     "com.github.pwittchen:infinitescroll:0.0.1",
+            glide:              "com.github.bumptech.glide:glide:${GLIDE_VERSION}",
+            rxAndroid:          "io.reactivex:rxandroid:${RX_ANDROID_VERSION}",
+            fresco:             "com.facebook.fresco:fresco:${FRESCO_VERSION}",
+            frescoAnimatedWebp: "com.facebook.fresco:animated-webp:${FRESCO_VERSION}",
+            frescoWebp:         "com.facebook.fresco:webpsupport:${FRESCO_VERSION}"
+    ]
+
+    testLibs = [
+    ]
+
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/gifs_search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/gifs_search_bar_height"
+        android:imeOptions="actionSearch"
+        android:hint="@string/search_gif_hint"
+        android:inputType="text" />
+
+    <FrameLayout
+        android:id="@+id/gifs_gallery_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gallery_view_padding"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/gifs_recycler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:visibility="visible" />
+
+        <ProgressBar
+            android:id="@+id/gifs_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:paddingRight="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/gifs_no_result_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:text="@string/no_result"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+</merge>

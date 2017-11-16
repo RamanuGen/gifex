@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GifGalleryView">
+        <attr name="gif_place_holder" format="reference" />
+        <attr name="gif_layout" />
+        <attr name="gif_source" format="integer" />
+    </declare-styleable>
+    <attr name="gif_layout">
+        <flag name="list" value="0" />
+        <flag name="grid" value="1" />
+    </attr>
+</resources>
