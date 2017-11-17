@@ -9,7 +9,7 @@ Initially, small chunk of gifs are fetched and when user scrolls till end, it fe
 Limit for a chunk can be configured and total no of gifs can also be configured.
 
 ### IMPORTANT
-##### Get an api key from the source(ex : Giphy, Gifskey) 
+##### Get your own api key from the source(ex : Giphy, Gifskey) 
 
 ##### Visit [Giphy](https://developers.giphy.com/) to register an app and get an api key for Giphy
 Or                 
@@ -24,7 +24,7 @@ Or
 in your gradle,   
 
 ```
-compile 'org.ramanugen.gifex:gifex:1.0.0'
+compile 'org.ramanugen.gifex:gifex:1.0.1'
 ```
 
 Initialize Gifex by
